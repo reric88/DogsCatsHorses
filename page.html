@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+ <title>Test Page</title>
+ </head>
+<body>
+ <main>
+  <h1>Dogs, Cats and Horses</h1>
+     <p>Click <a href="#cats">here</a> for pictures of cats.</p>
+     <p>Click <a href="#horse">here</a> for a picture of a horse.</p>
+  <section>
+   <h2>Here are two photos of a dog.</h2>
+      <!-- TODO: Add pictures of dogs -->
+      <h3>Picture of Annie #1</h3>
+   <img src="images\dog1.jpg" alt="Picture of a pug under a curtain" height="320">
+     <h4>Things Annie Loves:</h4>
+      <ul>
+          <li>Food</li>
+          <li>Momma</li>
+          <li><em>Food</em></li>
+          <li>Peeing on rugs</li>
+          <li><strong><em>Food</em></strong></li>
+      </ul>
+      <h3>Picture of Annie #2</h3>
+     <img src="images/dog2.jpg" alt="Picture of a pug in luggage case" height="320">
+     <h4>Things Annie hates:</h4>
+      <ul>
+        <li>Dog food</li>
+        <li>Cats</li>
+        <li>Walks</li>
+        <li>Being cold</li>
+      </ul>
+     </section>
+     <section>
+         <a id="cats"><h2>Here are two photos of two cats</h2></a>
+         <!-- TODO: Add pictures of cats -->
+            <h3>This is Michael the cat</h3>
+         <img src="images/cat1.jpg" alt="Cat looking in through door" height="320">
+         <figcaption>Michael being curious</figcaption>
+         <h3>This is Peaches the cat.</h3>
+         <img src="images/cat2.jpg" alt="Cat with paws on person" height="320">
+         <figcaption>Peaches won't let you work</figcaption>
+     </section>
+     <section>
+         <a id="horse"><h2>Here is a photo of a horse.</h2></a>
+         <!-- TODO: Add pictures of horse -->
+         <img src="images/horsemask.jpg" alt="a very cool picture of a horse" height="320">
+         <figcaption>This is a cool picture</figcaption>
+         <h2>Here is the same horse bathing</h2>
+         <img src="images/horse2.jpg" alt="This image source intentionally left blank" height="320">
+         <figcaption>A horse in a bubble bath</figcaption>
+     </section>
+     <section>
+         <h2>Voting Form</h2>
+         <h5><em>Please only select one from each category</em></h5>
+     <form action="forms\form.txt">
+         <fieldset>
+         <Legend>Which is your favorite dog picture?</Legend>
+          <label>
+            <input id="img1" value="img1" type="radio" name="img1-img2"> Image #1 of Annie <img src="images/dog1.jpg" height="32">
+            </label>
+         <label>
+            <input id="img2" value="img2" type="radio" name="img1-img2"> Image #2 of Annie <img src="images/dog2.jpg" height ="32">
+            </label>
+         </fieldset>
+         <p></p>
+    <fieldset>
+        <legend>Which is your favorite cat picture?</legend>
+         <label>
+             <input id="img3" value="img3" type="radio" name="img3-img4"> Image of Michael <img src="images/cat1.jpg" height="32>">
+             </label>
+         <label>
+             <input id="img4" value="img4" type="radio" name="img3-img4"> Image of Peaches <img src="images/cat2.jpg" height="32">
+             </label>
+         </fieldset>
+         <p></p>
+    <fieldset>
+         <legend>Which is  your favorite horse picture?</legend>
+            <label>
+                <input id="img5" value="img5" type="radio" name="img5-img6"> Image of a horse #1 <img src="images/horsemask.jpg" height="32">
+                </label>
+            <label>
+                <input id="img6" value="img6" type="radio" name="img5-img6"> Image of a horse #2 <img src="images/horse2.jpg" height="32">
+                </label>
+         </fieldset>
+         <p></p>
+         <input type="text" name="name" placeholder="Name">
+         <button type="submit">Submit</button>
+        </form>
+     </section>
+ </main>
+    <p></p>
+    <footer>
+    No Copyright, 2023
+    </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<html>
+<head>
+ <title>Test Page</title>
+ </head>
+<body>
+ <main>
+  <h1>Dogs, Cats and Horses</h1>
+  <section>
+   <h2>Here is a photo of a dog.</h2>
+   <img src="C:\Users\ruffy\OneDrive\Documents\FREE CODE CAMP\Responsive Web Design\Test Page\images\dog1.jpg">
+   </section>
+ </main>
+</body>
+</html>
